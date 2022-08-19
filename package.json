@@ -1,5 +1,5 @@
 {
-  "name": "generate-id",
+  "name": "generate-unique-ids",
   "version": "2.1.1",
   "description": "Generate an unique id for your application",
   "main": "index.js",

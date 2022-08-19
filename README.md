@@ -4,13 +4,13 @@
 
 ### 🔽Install
 ```bash
-$ npm install generate-id
+$ npm install generate-unique-ids
 ```
 
 ### 🔨Usage:
 
 ```javascript
-const Generator=require('generate-id')
+const Generator=require('generate-unique-ids')
 
 var NormalId=Generator.GenerateId(15)
 //Put the length of the Id into the parameter field.
@@ -25,7 +25,7 @@ console.log(NumberId)
 ```
 #### Secured-Ids
 ```javascript
-const Generator=require('generate-id')
+const Generator=require('generate-unique-ids')
 
 var NormalId=Generator.GenerateSecId()//This Id is suitable for Secure Purposes
 ```
