@@ -4,13 +4,13 @@
 
 ### 🔽Install
 ```bash
-$ npm install strid-generator
+$ npm install generate-id
 ```
 
 ### 🔨Usage:
 
 ```javascript
-const Generator=require('strid-generator')
+const Generator=require('generate-id')
 
 var NormalId=Generator.GenerateId(15)
 //Put the length of the Id into the parameter field.
@@ -25,9 +25,16 @@ console.log(NumberId)
 ```
 #### Secured-Ids
 ```javascript
-const Generator=require('strid-generator')
+const Generator=require('generate-id')
 
 var NormalId=Generator.GenerateSecId()//This Id is suitable for Secure Purposes
+```
+#### Other Ids
+```javascript
+var MixId=Generator.GenerateMixedAlphaId()//Mixed alphabet id
+var Upper=Generator.GenerateUpperId()//Uppercase only id
+var Lower=Generator.GenerateLowerId()//Lowercase id
+var NumberSlash=Generator.GenerateNumHyphId()//Id with number and hyphen -
 ```
 #### 🍪Example (Cookies)
 ```javascript

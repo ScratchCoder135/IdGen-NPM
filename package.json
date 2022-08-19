@@ -1,6 +1,6 @@
 {
-  "name": "strid-generator",
-  "version": "2.1.0",
+  "name": "generate-id",
+  "version": "2.1.1",
   "description": "Generate an unique id for your application",
   "main": "index.js",
   "scripts": {
