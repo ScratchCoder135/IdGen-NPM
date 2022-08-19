@@ -41,7 +41,7 @@ var Customizr=Generator.GenerateCustomizeId({length:24,datastring:"YourDataStrin
 ModuleName.Function({length:number,datastring:string})
 #### 🍪Example (Cookies)
 ```javascript
-request.cookies.LoginId=Generator.GenerateId(Math.floor(Math.random()*88)+12)
+request.cookies.LoginId=Generator.GenerateId({length:Math.floor(Math.random()*88)+12})
 
 //You can have an Id to identify users.
 ```
