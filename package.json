@@ -1,0 +1,22 @@
+{
+  "name": "strid-generator",
+  "version": "1.0.0",
+  "description": "Generate an unique id for your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScratchCoder135/IdGen-NPM.git"
+  },
+  "keywords": [
+    "Id","unique id","generate id","id generator","ids","Ids","generate unique id","token generator","generate token id","generate random string","generate random","random string generator","random generator"
+  ],
+  "author": "S-Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScratchCoder135/IdGen-NPM/issues"
+  },
+  "homepage": "https://github.com/ScratchCoder135/IdGen-NPM#readme"
+}
