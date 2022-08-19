@@ -40,6 +40,9 @@ request.cookies.LoginId=Generator.GenerateId(Math.floor(Math.random()*88)+12)
 - S-Studio
 
 ### 🎉Update Logs
+2022/08/19 v2.0,v2.1
+Add a function
+
 2022/08/19 v1.0
 Create the package
 
