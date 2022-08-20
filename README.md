@@ -46,7 +46,18 @@ var Pattern=g.GenerateCustomizePatternId({length:15,pattern:"user123#"})
 console.log(Pattern)
 //user123E5Gc6K3d
 ```
+##### Examples
+You can use this function in many ways such as user management system(with the help of other packages)
+```javascript
+//Example
+var db=[{userid:"User12345678901234567890",password:"1234567"},
+device:"Windows 11,Chrome,version 100"]
 
+
+var newUserID=g.GenerateCustomizePatternId({length:24,pattern:"User#"})
+db.push({userid:newUserID,password:request.body.password,device:request.body.device})
+response.send("User Created")
+```
 #### Structures
 ModuleName.Function({length:number,datastring:string})
 #### 🍪Example (Cookies)
