@@ -104,15 +104,44 @@ IdGenerator.prototype.GenerateNumHyphId=function(data){
 }
 }
 IdGenerator.prototype.GenerateCustomizeId=function(data){
-  if(data.length!==null&&data.length!=="null"&&data.length!==undefined&&data.datastring!==null&&data.datastring!==undefined&&data.datastring!==""){
+  if(data.length!==null&&data.length!=="null"&&data.length!==undefined){
     var length=data.length
     var result           = '';
-    var characters       = data.datastring;
+    var characters
+    if(data.datastring!==null&&data.datastring!==undefined&&data.datastring!==""){
+    characters       = data.datastring;
+    }else{
+    characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    }
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {
       result += characters.charAt(Math.floor(Math.random() * 
  charactersLength));
    }
+   return result;
+}else{
+    throw "Invalid Data"
+}
+}
+IdGenerator.prototype.GenerateCustomizePatternId=function(data){
+  if(data.length!==null&&data.length!=="null"&&data.length!==undefined&&data.pattern!==null&&data.pattern!==null&&data.pattern!==undefined&&data.pattern!==""){
+    var length=data.length
+    var result           = '';
+    var characters
+    if(data.datastring!==null&&data.datastring!==undefined&&data.datastring!==""){
+    characters       = data.datastring;
+    }else{
+    characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    }
+    var pattern=data.pattern
+    var chl=pattern.replace(/#/g,"")
+    var idL=data.length - chl.length
+    var charactersLength = characters.length;
+    for ( var i = 0; i < idL; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+ charactersLength));
+   }
+   result=pattern.replace(/#/g,result)
    return result;
 }else{
     throw "Invalid Data"

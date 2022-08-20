@@ -37,6 +37,16 @@ var Lower=Generator.GenerateLowerId()//Lowercase id
 var NumberSlash=Generator.GenerateNumHyphId()//Id with number and hyphen -
 var Customizr=Generator.GenerateCustomizeId({length:24,datastring:"YourDataString"})//Get ID with custumized characters
 ```
+
+#### 🌄Patterns
+We support customize patterns
+```javascript
+var Pattern=g.GenerateCustomizePatternId({length:15,pattern:"user123#"})
+//Use # to be the part you want to have random id.
+console.log(Pattern)
+//user123E5Gc6K3d
+```
+
 #### Structures
 ModuleName.Function({length:number,datastring:string})
 #### 🍪Example (Cookies)
@@ -50,6 +60,12 @@ request.cookies.LoginId=Generator.GenerateId({length:Math.floor(Math.random()*88
 - S-Studio
 
 ### 🎉Update Logs
+#### 2022/08/20 v2.2
+#### Updated New function
+```javascript
+var Pattern=g.GenerateCustomizePatternId({length:15,pattern:"user123#"})
+```
+
 2022/08/19 v2.0,v2.1
 Add a function
 Changed the name
@@ -61,5 +77,7 @@ Create the package
 Please find me on [Github](https://github.com/ScratchCoder135)
 This project ▶ [Github Repo](https://github.com/ScratchCoder135/IdGen-NPM)
 
+###🌐Website
 
+Developing...
 
