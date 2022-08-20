@@ -50,8 +50,8 @@ console.log(Pattern)
 You can use this function in many ways such as user management system(with the help of other packages)
 ```javascript
 //Example
-var db=[{userid:"User12345678901234567890",password:"1234567"},
-device:"Windows 11,Chrome,version 100"]
+var db=[{userid:"User12345678901234567890",password:"1234567",
+device:"Windows 11,Chrome,version 100"}]
 
 
 var newUserID=g.GenerateCustomizePatternId({length:24,pattern:"User#"})
