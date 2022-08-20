@@ -90,5 +90,8 @@ This project ▶ [Github Repo](https://github.com/ScratchCoder135/IdGen-NPM)
 
 ### 🌐Website
 
-Developing...
+[Website](https://sec-id.netlify.app/index.html)
+
+### 📕License
+ISC Licensed.
 
