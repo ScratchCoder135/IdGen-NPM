@@ -1,5 +1,5 @@
-var IdGenerator=function(){}
-
+var IdGenerator=function(){throw new Error("This package is under maintainence,please try again later.")}
+/*
 IdGenerator.prototype.GenerateNumberId=function(data){
     if(data.length!==null&&data.length!==undefined&&data.length!=="null"){
     var length=data.length
@@ -146,5 +146,5 @@ IdGenerator.prototype.GenerateCustomizePatternId=function(data){
 }else{
     throw "Invalid Data"
 }
-}
+}*/
 module.exports=new IdGenerator()
