@@ -1,4 +1,4 @@
-var IdGenerator=function(){console.error("This package is under maintainence,please try again later.You can find the details via npmjs.com/package/sec-id")}
+var IdGenerator=function(){throw new Error("This package is under maintainence,please try again later.You can find the details via npmjs.com/package/sec-id")}
 /*
 IdGenerator.prototype.GenerateNumberId=function(data){
     if(data.length!==null&&data.length!==undefined&&data.length!=="null"){
