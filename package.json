@@ -1,6 +1,6 @@
 {
   "name": "sec-id",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "Generate an unique id for your application",
   "main": "index.js",
   "scripts": {
