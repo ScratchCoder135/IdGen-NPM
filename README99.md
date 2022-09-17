@@ -23,6 +23,15 @@ console.log(NumberId)
 //eugjdnsl471Gher
 //295739587936457
 ```
+#### Example of Shell execution
+```javascript
+#!/usr/bin/env node
+const g=require("sec-id")
+g.GenerateCustomizePatternId({length:999,pattern:"usr82194*#"})
+
+//usr82194*u8ow3ehf45378tc54jo934c8jhzjhJKJYHKKOJGjw7hc87whrty7v4ryr9gterhtr97je4tc753w78gGFJGGJEGGFDSZJtzr6rewr4376r643r8wygfjsdgfjskd...
+
+```
 #### Secured-Ids
 ```javascript
 const Generator=require('sec-id')
