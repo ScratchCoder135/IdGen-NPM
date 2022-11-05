@@ -23,6 +23,10 @@ console.log(NumberId)
 //eugjdnsl471Gher
 //295739587936457
 ```
+
+```
+[handler].[function]({length:Number,pattern:Sharp-Pattern})
+```
 #### Example of Shell execution
 ```javascript
 #!/usr/bin/env node
